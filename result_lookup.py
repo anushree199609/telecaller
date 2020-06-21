@@ -21,7 +21,7 @@ class Results:
             print(record)
             cursor.close()
             total = record[3]+record[4]+record[5]+record[6]+record[7]
-            marks = 'Name:'+str(record[0])+' Roll:'+str(record[1])+' DS:'+str(record[3])+' CS:'+str(record[4])+\
+            marks = 'Name:'+str(record[0])+' Rollno:'+str(record[1])+' DS:'+str(record[3])+' CS:'+str(record[4])+\
                         ' DBMS:'+str(record[5])+' JAVA:'+str(record[6])+' OS:'+str(record[7])+' Total:'+str(total)
             #  marks = get result from executing query
             if marks is not None:
